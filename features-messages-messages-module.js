@@ -7646,8 +7646,6 @@ class FilterMessagesComponent {
      * @param filter search parameter
      */
     filterInput(filter) {
-        //console.log(filter);
-        //emit search parameter to parent component
         this.filter.emit(filter.target.value);
     }
 }
